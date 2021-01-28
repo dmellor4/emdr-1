@@ -14,7 +14,7 @@ The invention of LED stripes with ready mounted LED pixels makes the DIY manufac
 
 The only electrical component missing from these stripes is an USB connection. This is done by a Teensy microcontroller,
 which implements a USB peripheral protocol on the one hand and the WS2812 serial bus on the other. The USB connection
-also powers the microcontroller and the LEDs. Fortunately, an EMDR light bar has never more than one LED illuminated
+also powers the microcontroller and the LEDs. Fortunately, an EMDR light bar never has more than one LED illuminated
 at the same time, so USB current is sufficient.
 
 Wiring is quite simple, since the Teensy LC already has a 5 V driver on board. 
